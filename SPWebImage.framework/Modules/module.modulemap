@@ -1,0 +1,10 @@
+framework module SPWebImage {
+  umbrella header "SPWebImage.h"
+
+  export *
+  module * { export * }
+}
+
+module SPWebImage.Swift {
+    header "SPWebImage-Swift.h"
+}
